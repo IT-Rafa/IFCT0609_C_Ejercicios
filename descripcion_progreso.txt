@@ -1,0 +1,19 @@
+Descripción del progreso en proyecto IFCT0609_C
+
+- Estado inicial.
+	- Cuenta GitHub
+	- Varios ejercicios hechos que se ejecutan desde un main : ejercicioC
+
+- Ramas
+	master: Para version proyecto completado
+	developed: Para trabajar
+
+	Varias: Para añadir funcionalidades a developed
+	release: Para completar versiones a developed y finalmente a master
+	hotfixes: para arreglar o modificar cosas en version completado
+
+commits
+Inicializar
+commit	master: Initial commit: Con carpetas,datos proyecto,LICENSE y README.md
+creamos rama developed
+creamos rama menu	

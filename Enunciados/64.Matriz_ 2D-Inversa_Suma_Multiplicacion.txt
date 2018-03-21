@@ -1,0 +1,6 @@
+Matriz 2D Inversa Suma Multiplicacion.txt
+
+Crear 2 Arrays de 2 dimensiones
+- Hallar la inversa de cada una
+- Hallar la suma de las dos
+- Hallar la multiplicación de las dos

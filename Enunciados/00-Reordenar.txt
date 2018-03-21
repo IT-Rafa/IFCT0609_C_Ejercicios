@@ -1,0 +1,37 @@
+Van seguidos
+66-69. ejerC_Estructuras.docx
+
+81-83. EjerciciosEstructuras.pdf
+
+Sencillos
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 1 al 10
+
+Estructuras de control
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 11 al 33
+	triangulo_Asteriscos.txt
+
+Funciones
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 34 al 42
+
+Arrays unidimensionales
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 43 al 46
+
+Strings
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 47 al 54
+
+Arrays y Strings con funciones
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 55 al 60
+	70. ejercicioMenu.docx
+	71. SalariosDepartamento.txt
+
+Arrays bidimensionales
+	Archivo "1-62. EjerciciosEnC.pdf" - Del 61
+	63. TemperaturaMediaSemanaProvincia.txt
+	64. Matriz 2D Inversa Suma Multiplicacion.txt
+
+Structs
+	65. Ejemplo structs.txt
+	66-69. ejerC_Estructuras.docx
+	81-83. EjerciciosEstructuras.pdf
+Punteros
+	72. RedimensionarTamañoArrays.txt
