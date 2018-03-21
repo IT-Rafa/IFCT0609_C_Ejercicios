@@ -16,4 +16,13 @@ commits
 Inicializar
 commit	master: Initial commit: Con carpetas,datos proyecto,LICENSE y README.md
 creamos rama developed
-creamos rama menu	
+modificamos cosas y hacemos git commit -amend. Error
+No existe commit común.
+reparo con 
+git merge master --allow-unrelated-histories
+junta ramas ok
+borro archivo de mas
+creamos rama menu
+añadimos main con el control de los argumentos
+---Plantamos: pendiente menú
+commit en rama menu - añadido main
