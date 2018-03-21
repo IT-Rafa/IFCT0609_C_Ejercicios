@@ -8,6 +8,9 @@ Creado en 2018.
 
 Conjunto de ejercicios básicos en C para el certificado de profesionalidad IFCT0609.
 
+Cada ejercicio tiene un resumen del enunciado comentado en el código fuente. 
+El enunciado completo está en la carpeta /enunciados con distintos formatos (txt, odt,pdf)
+
 Fueron probados con:
   - compilador Gnu/gcc 6.4.0 en Windows10 dentro de consola cygwin
   - Compilador Gnu/gcc 6.4.0 Arch Linux y Fedora
