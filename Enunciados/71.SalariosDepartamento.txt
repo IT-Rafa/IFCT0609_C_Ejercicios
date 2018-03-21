@@ -1,0 +1,9 @@
+Almacenar los tipos de salario en función del departamento y horario de los empleados.
+El salario base será de 1100 €, que se incrementará en función de:
+El departamento de programadores recibe un 10% más del salario base
+El departamento de analistas recibe un 20% más del salario base
+El departamento de facturación recibe el salario base
+En el turno de dia no tiene incremento.
+En el turno de tarde tiene un incremento del 10%.
+En el turno de noche tiene incremento del 30% 
+Crear una matriz donde poder tener la tabla de salarios almacenados.

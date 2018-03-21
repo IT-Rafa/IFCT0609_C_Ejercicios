@@ -1,0 +1,11 @@
+Crear un triangulo equilatero en la consola a base de asteriscos
+Ej:
+
+
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+
