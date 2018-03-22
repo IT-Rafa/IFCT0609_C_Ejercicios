@@ -12,7 +12,7 @@
 
 #ifndef EJERCICIOS_H
 #define EJERCICIOS_H
-#include "../1_operaciones/ej1Circulo.c"
+#include "1_operaciones/ej1Circulo.c"
 #include <stdio.h>
 #include <stdlib.h>
 
