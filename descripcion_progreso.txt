@@ -24,5 +24,9 @@ junta ramas ok
 borro archivo de mas
 creamos rama menu
 añadimos main con el control de los argumentos
----Plantamos: pendiente menú
+---Plantamos: pendiente gestion menú en main
 commit en rama menu - añadido main
+
+Añadimos menu, ejecutar y su funcionalidad en main
+	 - problemas con localizacion ficheros c en distintas carpetas
+Commit para probarlo en linux

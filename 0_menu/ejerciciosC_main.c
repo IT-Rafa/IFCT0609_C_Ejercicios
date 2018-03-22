@@ -13,16 +13,10 @@
  *         - Si se ejecuta sin argumentos. ejercicioC
  *             Aparece un menú
  */
-/*
-comprobamos cantidad argumentos =2
-comprobamos arg1 son de 1 a 2 caracteres
-Si solo es un caracter
-	Comprobamos que es un número y lo pasamos a entero
-Si son más de un caracter 
-	Comprobamos que ambos son un número y lo pasamos a entero
-*/
 
-#include "ejerciciosC.h" //Cabecera con las funciones de los ejercicios
+//Cabecera con las declaraciones de las funciones de los ejercicios,
+// bibliotecas,declaraciones globales, etc
+#include "ejerciciosC.h"
 
 /*Funcion principal que coge argumentos desde línea de comandos
  * Devuelve int --> Estado programa
@@ -40,7 +34,7 @@ int main(int argc, char* argv[])
     int cantLetras = 0;
     //Controlamos argumentos
     switch (argc) {
-    case 1:
+        case 1:
         printf("\nNo eligió argumentos, así que mostramos menú.\n");
         break;
     case 2:
@@ -81,9 +75,11 @@ int main(int argc, char* argv[])
             printf("No es un ejercicio válido.\n");
         }
         printf("\nHacemos pausa\n");
-        printf("Mostramos menú.\n.");
         break;
     default:
         printf("\nDemasiados argumentos\n");
     }
+    do{
+        ej=menu();
+    } while (ej != 0);
 }

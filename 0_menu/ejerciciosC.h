@@ -12,18 +12,20 @@
 
 #ifndef EJERCICIOS_H
 #define EJERCICIOS_H
-
+#include "../1_operaciones/ej1Circulo.c"
 #include <stdio.h>
 #include <stdlib.h>
 
 #define PI 3.1416
-#define MAX_EJ 10
+#define MAX_EJ 1
 #define MAX_OP 2
 
-//Funciones útiles
-
 //funciones principales
+int menu();
+void ejecutaEj(int ej);
 
 //funciones ejercicios
+void ej1Circulo();
+//Funciones útiles
 
 #endif /* EJERCICIOS_H */
