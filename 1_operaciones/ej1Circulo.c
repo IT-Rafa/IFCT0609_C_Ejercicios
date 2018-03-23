@@ -17,7 +17,7 @@
 
 //Cabecera con las declaraciones de las funciones de los ejercicios,
 // bibliotecas,declaraciones globales, etc
-#include "ejerciciosC.h"
+#include "ejC_1_operaciones.h"
 
 void ej1Circulo()
 {

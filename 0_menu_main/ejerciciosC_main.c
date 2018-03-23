@@ -14,9 +14,9 @@
  *             Aparece un menú
  */
 
-//Cabecera con las declaraciones de las funciones de los ejercicios,
-// bibliotecas,declaraciones globales, etc
-#include "ejerciciosC.h"
+//Cabecera bibliotecas estándar y propias, variables globales, constantes y las funciones
+// relacionadas directamente con ejerciciosC_main.c
+#include "headerMain.h"
 
 /*Funcion principal que coge argumentos desde línea de comandos
  * Devuelve int --> Estado programa

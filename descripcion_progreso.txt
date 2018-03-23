@@ -30,3 +30,21 @@ commit en rama menu - añadido main
 Añadimos menu, ejecutar y su funcionalidad en main
 	 - problemas con localizacion ficheros c en distintas carpetas
 Commit para probarlo en linux
+Separamos cabecera ejerciciosC.h en varios:
+	- headerMain.h : Para los recursos relacionadas directamente con ejerciciosC_main.c
+		 (ejecutaEj, menu.c, stdio.h)
+
+	Para cada apartado
+	- ejC_1_operaciones.h
+	- ejC_2_Decisiones_y_bucles.h
+	- ejC_3_Funciones.h
+	- ejC_4_Arrays.h
+	- ejC_5_Strings.h
+	- ejC_6_Array_Strings_y_funciones.h
+	- ejC_7_Matrices.h
+	- ejC_8_Structs.h
+
+Creadas cabeceras, multiples errores por cygwin mainCRTStartup definiciones multiples.
+hacemos commit y probamos en linux
+
+	
