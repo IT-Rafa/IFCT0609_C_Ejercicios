@@ -19,7 +19,7 @@
 
 //Cabereras ejercicios
 #include "../1_operaciones/ejC_1_operaciones.h"
-#include "../2_Decisiones_y_bucles\ejC_2_Decisiones_y_bucles.h"
+#include "../2_Decisiones_y_bucles/ejC_2_Decisiones_y_bucles.h"
 #include "../3_Funciones/ejC_3_Funciones.h"
 #include "../4_Arrays/ejC_4_Arrays.h"
 #include "../5_Strings/ejC_5_Strings.h"
