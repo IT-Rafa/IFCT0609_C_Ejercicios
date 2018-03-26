@@ -1,24 +1,30 @@
 #pendientes añadir ejs2.o ejs3.o ejs4.o ejs5.o ejs6.o ejs7.o ejs8.o
-ejerciciosC: main.o ejs1.o 
-	gcc main.o ejs1.o -o ejerciciosC
+ejerciciosC: ejerciciosC_main.o menu.o ejecutaEj.o ejs1.o bin
+	gcc -o bin/ejerciciosC obj/ejerciciosC_main.o obj/menu.o obj/ejecutaEj.o \
+		obj/ejs1.o
 
 #dependencias main.o
-main.o: ejerciciosC_main.o menu.o ejecutaEj.o
-	gcc ejerciciosC_main.o menu.o ejecutaEj.o -o main.o
+ejerciciosC_main.o: src/ejerciciosC_main.c src/headerMain.h obj
+	gcc -c -o obj/ejerciciosC_main.o src/ejerciciosC_main.c
 
-ejerciciosC_main.o: 0_menu_main/ejerciciosC_main.c
-	gcc -c -o ejerciciosC_main.o 0_menu_main/ejerciciosC_main.c
+menu.o: src/menu.c src/headerMain.h obj
+	gcc -c -o obj/menu.o src/menu.c
 
-menu.o: 0_menu_main/menu.c
-	gcc -c -o menu.o 0_menu_main/menu.c
+ejecutaEj.o: src/ejecutaEj.c src/headerMain.h obj
+	gcc -c -o obj/ejecutaEj.o src/ejecutaEj.c
 
-ejecutaEj.o: 0_menu_main/ejecutaEj.c
-	gcc -c -o ejecutaEj.o 0_menu_main/ejecutaEj.c
+#Dependencias ejercicios
+ejs1.o: src/1_operaciones/ej1Circulo.c src/1_operaciones/ejs1.h obj
+	gcc -c -o obj/ejs1.o src/1_operaciones/ej1Circulo.c
+obj:
+	mkdir obj
 
-#dependencias ejs1.o
-ejs1.o: 1_operaciones/ej1Circulo.c
-	gcc -c -o ejs1.o 1_operaciones/ej1Circulo.c 
+bin:
+	mkdir bin
+
+run: bin/ejerciciosC
+	bin/ejerciciosC
 
 clean:
-	rm -f *.o
-	rm -f ejerciciosC*
+	rm -f obj/*.o
+	rm -f bin/*.*

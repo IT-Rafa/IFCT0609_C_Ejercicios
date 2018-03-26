@@ -17,6 +17,7 @@
 //Cabecera bibliotecas estándar y propias, variables globales, constantes y las funciones
 // relacionadas directamente con ejerciciosC_main.c
 #include "headerMain.h"
+#include "1_operaciones/ejs1.h"
 
  /*
 Función: void ejecutaEj(int ej)
@@ -28,15 +29,14 @@ Retorna:
 Parámetros:
 	int ej: Un entero con el ejercicio a ejecutar
 */
- void
- ejecutaEj(int ej)
+ void ejecutaEj(int ej)
 {
     switch (ej) {
     case 0:
         printf("Eligio: Volver a Menú principal");
         break;
     case 1:
-        printf("hola");
+        ej1Circulo();
         break;
     }
 }

@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
     int cantLetras = 0;
     //Controlamos argumentos
     switch (argc) {
-        case 1:
+    case 1:
         printf("\nNo eligió argumentos, así que mostramos menú.\n");
         break;
     case 2:
@@ -43,10 +43,10 @@ int main(int argc, char* argv[])
         for (cantLetras = 0; argv[1][cantLetras] != '\0'; ++cantLetras) {
         }
         //Comprobamos que son dos caracteres
-        if (cantLetras > 0 && cantLetras < 3) {
+        if (cantLetras == 1 && cantLetras == 2) {
             //Comprobamos si el primer caracter es un número que no sea 0
             if (argv[1][0] > '0' && argv[1][0] <= '9') {
-                //Comprobamos si es 1 caracter y lo pasamos a entero
+                //Comprobamos si es solo 1 caracter y lo pasamos a entero
                 if (cantLetras == 1) {
                     ej = (int)(argv[1][0] - 48);
                     printf("\nEs un caracter. ej=%d\n", ej);
@@ -79,7 +79,10 @@ int main(int argc, char* argv[])
     default:
         printf("\nDemasiados argumentos\n");
     }
-    do{
-        ej=menu();
+    do {
+        ej = menu();
+        printf("Devuelve %d", ej);
     } while (ej != 0);
+    printf("\nFin programa\n");
+    return 0;
 }
