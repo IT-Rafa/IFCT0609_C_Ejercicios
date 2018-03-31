@@ -18,7 +18,7 @@
 #include "headerMain.h"
 
 int subMenu(int op); // Recibe opción del menú y devuelve un ejercicio válido
-void mostrarMenu(); //Solo muestra opciones del menú
+void mostrarMenu(void); //Solo muestra opciones del menú
 void mostrarSubmenu(int op); //Solo muestra los distintos submenús, según op
 
 int menu(void)
@@ -31,7 +31,7 @@ int menu(void)
 
         switch (op) {
         case 0:
-            printf("\nSalimmos del menu\n");
+            printf("\nSalimos del menu\n");
             break;
         case 1:
         case MAX_OP:
@@ -46,25 +46,22 @@ int menu(void)
 
 int subMenu(int op)
 {
-    int opSub = 0;
-
+    int ej = 0;
     do {
         mostrarSubmenu(op);
-        scanf("%d", &opSub);
-
-        switch (opSub) {
+        scanf("%d", &ej);
+        switch (ej) {
         case 0:
             printf("\nSalimmos del SubMenu\n");
             break;
         case 1:
         case MAX_EJ:
-            ejecutaEj(opSub);
+            ejecutaEj(ej);
             break;
         default:
             printf("Opcion no valida");
         }
-    } while (opSub<0 && opSub>MAX_EJ);
-    return opSub;
+    } while (ej!=0);
 }
 
 //Muestra menú principal

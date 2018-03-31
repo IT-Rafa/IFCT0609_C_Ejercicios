@@ -3,7 +3,7 @@
  * Project: IFCT0609_C_ejerciciosC
  * Author:	Rafael Martínez (it.rafamartinez@gmail.com)
  *
- * Created on 13 de febrero de 2018, 20:17
+ * Created on 13/2/2018, 20:17
  * Modified 22/03/18
  *
  * Descripción: 
@@ -17,7 +17,7 @@
 //Cabecera bibliotecas estándar y propias, variables globales, constantes y las funciones
 // relacionadas directamente con ejerciciosC_main.c
 #include "headerMain.h"
-#include "1_operaciones/ejs1.h"
+#include "totalEjercicios.h"
 
  /*
 Función: void ejecutaEj(int ej)
@@ -38,5 +38,14 @@ Parámetros:
     case 1:
         ej1Circulo();
         break;
+    case 2:
+      ej2Calculos();
+      break;
+    case 3:
+      ej3CapitalBanco();
+      break;
+
+    default:
+      printf("\nNo encuentro el ejercicio\n");
     }
 }

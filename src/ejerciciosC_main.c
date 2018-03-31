@@ -69,8 +69,7 @@ int main(int argc, char* argv[])
             printf("\nArgumento demasiado largo. Debe ser número de 2 dígitos.\n");
         }
         if (ej > 0 && ej <= MAX_EJ) {
-            printf("\nEJECUTAMOS EJERCICIO %d\n", ej);
-
+	  ejecutaEj(ej);
         } else {
             printf("No es un ejercicio válido.\n");
         }
@@ -79,10 +78,7 @@ int main(int argc, char* argv[])
     default:
         printf("\nDemasiados argumentos\n");
     }
-    do {
-        ej = menu();
-        printf("Devuelve %d", ej);
-    } while (ej != 0);
+    menu();
     printf("\nFin programa\n");
     return 0;
 }

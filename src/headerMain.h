@@ -13,6 +13,9 @@
 
 
 //cabeceras bibliotecas estandar usadas
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
 
 //funciones principales
@@ -22,3 +25,4 @@ void ejecutaEj(int ej);
 #define MAX_EJ 2
 #define MAX_OP 9
 
+#endif // END MAIN_H
