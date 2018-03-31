@@ -24,12 +24,12 @@ junta ramas ok
 borro archivo de mas
 creamos rama menu
 añadimos main con el control de los argumentos
----Plantamos: pendiente gestion menú en main
+---Plantamos: pendiente gestión menú en main
 commit en rama menu - añadido main
 
 Añadimos menu, ejecutar y su funcionalidad en main
-	 - problemas con localizacion ficheros c en distintas carpetas
-Commit para probarlo en linux
+	 - problemas con localización ficheros c en distintas carpetas
+Commit para probarlo en GNU/Linux
 Separamos cabecera ejerciciosC.h en varios:
 	- headerMain.h : Para los recursos relacionadas directamente con ejerciciosC_main.c
 		 (ejecutaEj, menu.c, stdio.h)
@@ -44,7 +44,18 @@ Separamos cabecera ejerciciosC.h en varios:
 	- ejC_7_Matrices.h
 	- ejC_8_Structs.h
 
-Creadas cabeceras, multiples errores por cygwin mainCRTStartup definiciones multiples.
-hacemos commit y probamos en linux
+Creadas cabeceras, multiples errores por Cygwin mainCRTStartup definiciones multiples.
+hacemos commit y probamos en GNU/Linux
+sigue KO
+--------
+Preparo los ejercicios como librería, modifico cabeceras y makefile
 
-	
+ahora compila OK
+
+commit y subo a GitHub
+-------
+Modificación makefile: ejecutable a carpeta bin
+--------
+Modificación README con todo´s
+añado ejercicios
+-------

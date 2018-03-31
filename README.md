@@ -16,6 +16,15 @@ Fueron probados con:
   - Compilador Gnu/gcc 6.4.0 Arch Linux y Fedora
   - Compilador de Visual Studio Community 2017 en consolas Windows10: cmd y Windows PowerShell
 
+##Pendiente
+- [x] Init Github
+- [x] Ejecutable: Coger argumentos terminal
+- [x] Ejecutable: Menú
+- [x] biblioteca ejercicios. prueba
+- [x] Ejecutable + biblioteca (3 ejercicios prueba)
+- [ ] biblioteca: Añadir resto ejercicios
+- [ ] Modificar makefile para Windows con vc++
+
 ## Author(s)
 
 * **Rafael Martínez Costas** - [Profile in GitHub](https://github.com/IT-Rafa)  |  [My Web site](https://github.com/IT-Rafa)
