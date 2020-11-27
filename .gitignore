@@ -1,3 +1,8 @@
+# Mis opciones
+# IDE´S
+*.vscode
+*.vs
+
 # Prerequisites
 *.d
 
